@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // import Library from "./chapter03/Library";
-import Clock from "./chapter04/Clock";
+// import Clock from "./chapter04/Clock";
+// import CommentList from './chapter05/CommentList';
+import NotificationList from './chapter06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -17,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <Clock />
+      <NotificationList />
     </React.StrictMode>,
   )
 }, 1000);
