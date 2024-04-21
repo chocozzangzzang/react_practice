@@ -7,7 +7,10 @@ import reportWebVitals from './reportWebVitals';
 // import Library from "./chapter03/Library";
 // import Clock from "./chapter04/Clock";
 // import CommentList from './chapter05/CommentList';
-import NotificationList from './chapter06/NotificationList';
+// import NotificationList from './chapter06/NotificationList';
+// import Accomodate from './chapter07/Accomodate';
+// import ConfirmButton from './chapter08/ConfirmButton';
+import LandingPage from './chapter09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -19,7 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <NotificationList />
+      <LandingPage />
     </React.StrictMode>,
   )
 }, 1000);
