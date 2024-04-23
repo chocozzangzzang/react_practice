@@ -13,7 +13,9 @@ import reportWebVitals from './reportWebVitals';
 // import LandingPage from './chapter09/LandingPage';
 // import AttandanceBook from './chapter10/AttandanceBook';
 // import Signup from './chapter11/Signup';
-import Calculator from './chapter12/Calculator';
+// import Calculator from './chapter12/Calculator';
+// import ProfileCard from './chapter13/ProfileCard';
+import DarkOrLight from './chapter14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -25,7 +27,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <Calculator />
+      <DarkOrLight />
     </React.StrictMode>,
   )
 }, 1000);
