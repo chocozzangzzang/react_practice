@@ -15,7 +15,8 @@ import reportWebVitals from './reportWebVitals';
 // import Signup from './chapter11/Signup';
 // import Calculator from './chapter12/Calculator';
 // import ProfileCard from './chapter13/ProfileCard';
-import DarkOrLight from './chapter14/DarkOrLight';
+// import DarkOrLight from './chapter14/DarkOrLight';
+import Blocks from './chapter15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -27,7 +28,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <DarkOrLight />
+      <Blocks />
     </React.StrictMode>,
   )
 }, 1000);
