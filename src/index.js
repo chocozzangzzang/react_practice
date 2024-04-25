@@ -16,7 +16,8 @@ import reportWebVitals from './reportWebVitals';
 // import Calculator from './chapter12/Calculator';
 // import ProfileCard from './chapter13/ProfileCard';
 // import DarkOrLight from './chapter14/DarkOrLight';
-import Blocks from './chapter15/Blocks';
+// import Blocks from './chapter15/Blocks';
+// import MainPage from './mini_project/component/page/MainPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -28,7 +29,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <Blocks />
+      <App />
     </React.StrictMode>,
   )
 }, 1000);
